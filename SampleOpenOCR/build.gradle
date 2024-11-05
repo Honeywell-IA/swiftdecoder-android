@@ -1,0 +1,54 @@
+apply plugin: 'com.android.application'
+
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.6.4'
+    }
+}
+
+android {
+    compileSdkVersion 34
+
+    defaultConfig {
+        applicationId "com.genericocr"
+        minSdkVersion 29
+        targetSdkVersion 34
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+        packagingOptions {
+            pickFirst  '**/*.so'
+        }
+    }
+}
+
+repositories {
+
+    maven {
+        
+        // Replace <TOKEN> with the token generated for your account
+        url = uri("https://maven.pkg.github.com/HON-IA-SD/swiftdecoder-android")
+
+        credentials {
+            username = '<GITHUB-USERNAME>'
+            password = '<TOKEN>'
+        }
+    }
+
+}
+
+dependencies {
+    //Replace x.x.x with the required version
+    implementation 'androidx.annotation:annotation:1.0.0'
+    implementation 'androidx.core:core:1.0.0'
+    implementation 'com.honeywell:swiftdecoder:x.x.x'
+    implementation 'com.honeywell:swiftocr:x.x.x'
+}

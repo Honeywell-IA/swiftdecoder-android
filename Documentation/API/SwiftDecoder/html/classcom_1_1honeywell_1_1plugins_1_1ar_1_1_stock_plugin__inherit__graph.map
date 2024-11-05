@@ -1,0 +1,5 @@
+<map id="com.honeywell.plugins.ar.StockPlugin" name="com.honeywell.plugins.ar.StockPlugin">
+<area shape="rect" id="node1" title="A SwiftPlugin used for rendering stock information on a rectangular box hovering slightly above the d..." alt="" coords="5,1080,217,1561"/>
+<area shape="rect" id="node2" href="$classcom_1_1honeywell_1_1plugins_1_1_decode_base_plugin.html" title="This is the decoder base plug&#45;in. It is used to give a base set of features to all plug&#45;ins that deri..." alt="" coords="11,407,211,1032"/>
+<area shape="rect" id="node3" href="$classcom_1_1honeywell_1_1plugins_1_1_swift_plugin.html" title="A SwiftPlugin is a special java plug&#45;in class that allows you to completely control the look and func..." alt="" coords="19,5,203,359"/>
+</map>

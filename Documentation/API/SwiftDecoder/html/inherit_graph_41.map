@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$interfacecom_1_1honeywell_1_1plugins_1_1_plugin_result_listener.html" title="The base interface all plug&#45;in result interfaces must extend. Used within the SwiftPlugin plug&#45;in arc..." alt="" coords="5,73,198,117"/>
+<area shape="rect" id="node2" href="$interfacecom_1_1honeywell_1_1plugins_1_1ar_1_1batchscan_1_1_batch_scan_result_listener.html" title="This interface must be implemented by any class that wishes to receive decoder results." alt="" coords="246,5,481,49"/>
+<area shape="rect" id="node3" href="$interfacecom_1_1honeywell_1_1plugins_1_1ar_1_1swiftfind_1_1_swift_find_listener.html" title="An interface that facilitates result handling for a serach and find opeartion." alt="" coords="253,73,474,117"/>
+<area shape="rect" id="node4" href="$interfacecom_1_1honeywell_1_1plugins_1_1decode_1_1_decode_result_listener.html" title="This interface must be implemented by any class that wishes to receive decoder results." alt="" coords="262,141,465,185"/>
+</map>

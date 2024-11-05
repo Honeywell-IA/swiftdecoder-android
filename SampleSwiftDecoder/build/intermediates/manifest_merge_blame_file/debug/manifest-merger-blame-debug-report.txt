@@ -1,0 +1,101 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.sample"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="29"
+8-->C:\SIOT\SwiftDecoder\Repos\githubmovement\sd-repos\androidsdk\Source\SampleProject\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="34" />
+9-->C:\SIOT\SwiftDecoder\Repos\githubmovement\sd-repos\androidsdk\Source\SampleProject\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->[com.honeywell:swiftdecoder:6.0.22] C:\Users\e851762\.gradle\caches\transforms-3\76611725213dacedc959e84aa0e40e37\transformed\jetified-swiftdecoder-6.0.22\AndroidManifest.xml:7:5-65
+11-->[com.honeywell:swiftdecoder:6.0.22] C:\Users\e851762\.gradle\caches\transforms-3\76611725213dacedc959e84aa0e40e37\transformed\jetified-swiftdecoder-6.0.22\AndroidManifest.xml:7:22-62
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->[com.honeywell:swiftdecoder:6.0.22] C:\Users\e851762\.gradle\caches\transforms-3\76611725213dacedc959e84aa0e40e37\transformed\jetified-swiftdecoder-6.0.22\AndroidManifest.xml:8:5-67
+12-->[com.honeywell:swiftdecoder:6.0.22] C:\Users\e851762\.gradle\caches\transforms-3\76611725213dacedc959e84aa0e40e37\transformed\jetified-swiftdecoder-6.0.22\AndroidManifest.xml:8:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.honeywell:swiftdecoder:6.0.22] C:\Users\e851762\.gradle\caches\transforms-3\76611725213dacedc959e84aa0e40e37\transformed\jetified-swiftdecoder-6.0.22\AndroidManifest.xml:9:5-76
+13-->[com.honeywell:swiftdecoder:6.0.22] C:\Users\e851762\.gradle\caches\transforms-3\76611725213dacedc959e84aa0e40e37\transformed\jetified-swiftdecoder-6.0.22\AndroidManifest.xml:9:22-73
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[com.honeywell:swiftdecoder:6.0.22] C:\Users\e851762\.gradle\caches\transforms-3\76611725213dacedc959e84aa0e40e37\transformed\jetified-swiftdecoder-6.0.22\AndroidManifest.xml:10:5-79
+14-->[com.honeywell:swiftdecoder:6.0.22] C:\Users\e851762\.gradle\caches\transforms-3\76611725213dacedc959e84aa0e40e37\transformed\jetified-swiftdecoder-6.0.22\AndroidManifest.xml:10:22-76
+15    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+15-->[com.honeywell:swiftdecoder:6.0.22] C:\Users\e851762\.gradle\caches\transforms-3\76611725213dacedc959e84aa0e40e37\transformed\jetified-swiftdecoder-6.0.22\AndroidManifest.xml:11:5-86
+15-->[com.honeywell:swiftdecoder:6.0.22] C:\Users\e851762\.gradle\caches\transforms-3\76611725213dacedc959e84aa0e40e37\transformed\jetified-swiftdecoder-6.0.22\AndroidManifest.xml:11:22-83
+16    <uses-permission android:name="android.permission.VIBRATE" />
+16-->[com.honeywell:swiftdecoder:6.0.22] C:\Users\e851762\.gradle\caches\transforms-3\76611725213dacedc959e84aa0e40e37\transformed\jetified-swiftdecoder-6.0.22\AndroidManifest.xml:12:5-66
+16-->[com.honeywell:swiftdecoder:6.0.22] C:\Users\e851762\.gradle\caches\transforms-3\76611725213dacedc959e84aa0e40e37\transformed\jetified-swiftdecoder-6.0.22\AndroidManifest.xml:12:22-63
+17    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+17-->[com.honeywell:swiftdecoder:6.0.22] C:\Users\e851762\.gradle\caches\transforms-3\76611725213dacedc959e84aa0e40e37\transformed\jetified-swiftdecoder-6.0.22\AndroidManifest.xml:13:5-81
+17-->[com.honeywell:swiftdecoder:6.0.22] C:\Users\e851762\.gradle\caches\transforms-3\76611725213dacedc959e84aa0e40e37\transformed\jetified-swiftdecoder-6.0.22\AndroidManifest.xml:13:22-78
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->[com.honeywell:swiftdecoder:6.0.22] C:\Users\e851762\.gradle\caches\transforms-3\76611725213dacedc959e84aa0e40e37\transformed\jetified-swiftdecoder-6.0.22\AndroidManifest.xml:14:5-81
+18-->[com.honeywell:swiftdecoder:6.0.22] C:\Users\e851762\.gradle\caches\transforms-3\76611725213dacedc959e84aa0e40e37\transformed\jetified-swiftdecoder-6.0.22\AndroidManifest.xml:14:22-78
+19    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+20
+21    <application
+21-->C:\SIOT\SwiftDecoder\Repos\githubmovement\sd-repos\androidsdk\Source\SampleProject\src\main\AndroidManifest.xml:9:9-19:19
+22        android:allowBackup="false"
+22-->C:\SIOT\SwiftDecoder\Repos\githubmovement\sd-repos\androidsdk\Source\SampleProject\src\main\AndroidManifest.xml:9:91-118
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.8.0] C:\Users\e851762\.gradle\caches\transforms-3\f8ca33f57cc610a0b1ed31d0cc4084bb\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+24        android:debuggable="true"
+25        android:extractNativeLibs="false"
+26        android:icon="@mipmap/ic_launcher"
+26-->C:\SIOT\SwiftDecoder\Repos\githubmovement\sd-repos\androidsdk\Source\SampleProject\src\main\AndroidManifest.xml:9:22-56
+27        android:label="@string/app_name"
+27-->C:\SIOT\SwiftDecoder\Repos\githubmovement\sd-repos\androidsdk\Source\SampleProject\src\main\AndroidManifest.xml:9:57-89
+28        android:testOnly="true" >
+29        <activity
+29-->C:\SIOT\SwiftDecoder\Repos\githubmovement\sd-repos\androidsdk\Source\SampleProject\src\main\AndroidManifest.xml:11:3-17:20
+30            android:name="com.sample.MainActivity"
+30-->C:\SIOT\SwiftDecoder\Repos\githubmovement\sd-repos\androidsdk\Source\SampleProject\src\main\AndroidManifest.xml:11:13-41
+31            android:exported="true"
+31-->C:\SIOT\SwiftDecoder\Repos\githubmovement\sd-repos\androidsdk\Source\SampleProject\src\main\AndroidManifest.xml:12:13-36
+32            android:label="@string/app_name" >
+32-->C:\SIOT\SwiftDecoder\Repos\githubmovement\sd-repos\androidsdk\Source\SampleProject\src\main\AndroidManifest.xml:11:42-74
+33            <intent-filter>
+33-->C:\SIOT\SwiftDecoder\Repos\githubmovement\sd-repos\androidsdk\Source\SampleProject\src\main\AndroidManifest.xml:13:13-16:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->C:\SIOT\SwiftDecoder\Repos\githubmovement\sd-repos\androidsdk\Source\SampleProject\src\main\AndroidManifest.xml:14:17-69
+34-->C:\SIOT\SwiftDecoder\Repos\githubmovement\sd-repos\androidsdk\Source\SampleProject\src\main\AndroidManifest.xml:14:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->C:\SIOT\SwiftDecoder\Repos\githubmovement\sd-repos\androidsdk\Source\SampleProject\src\main\AndroidManifest.xml:15:17-77
+36-->C:\SIOT\SwiftDecoder\Repos\githubmovement\sd-repos\androidsdk\Source\SampleProject\src\main\AndroidManifest.xml:15:27-74
+37            </intent-filter>
+38        </activity>
+39        <activity android:name="com.sample.DecodeComponentActivity" />
+39-->C:\SIOT\SwiftDecoder\Repos\githubmovement\sd-repos\androidsdk\Source\SampleProject\src\main\AndroidManifest.xml:18:9-61
+39-->C:\SIOT\SwiftDecoder\Repos\githubmovement\sd-repos\androidsdk\Source\SampleProject\src\main\AndroidManifest.xml:18:19-58
+40        <activity android:name="com.honeywell.camera.HSMCameraPreview" />
+40-->[com.honeywell:swiftdecoder:6.0.22] C:\Users\e851762\.gradle\caches\transforms-3\76611725213dacedc959e84aa0e40e37\transformed\jetified-swiftdecoder-6.0.22\AndroidManifest.xml:17:9-74
+40-->[com.honeywell:swiftdecoder:6.0.22] C:\Users\e851762\.gradle\caches\transforms-3\76611725213dacedc959e84aa0e40e37\transformed\jetified-swiftdecoder-6.0.22\AndroidManifest.xml:17:19-71
+41
+42        <provider
+42-->[androidx.emoji2:emoji2:1.2.0] C:\Users\e851762\.gradle\caches\transforms-3\27ea2d1fe40306b6a6ebc7514e2ae640\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+43            android:name="androidx.startup.InitializationProvider"
+43-->[androidx.emoji2:emoji2:1.2.0] C:\Users\e851762\.gradle\caches\transforms-3\27ea2d1fe40306b6a6ebc7514e2ae640\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+44            android:authorities="com.sample.androidx-startup"
+44-->[androidx.emoji2:emoji2:1.2.0] C:\Users\e851762\.gradle\caches\transforms-3\27ea2d1fe40306b6a6ebc7514e2ae640\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+45            android:exported="false" >
+45-->[androidx.emoji2:emoji2:1.2.0] C:\Users\e851762\.gradle\caches\transforms-3\27ea2d1fe40306b6a6ebc7514e2ae640\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+46            <meta-data
+46-->[androidx.emoji2:emoji2:1.2.0] C:\Users\e851762\.gradle\caches\transforms-3\27ea2d1fe40306b6a6ebc7514e2ae640\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+47                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+47-->[androidx.emoji2:emoji2:1.2.0] C:\Users\e851762\.gradle\caches\transforms-3\27ea2d1fe40306b6a6ebc7514e2ae640\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+48                android:value="androidx.startup" />
+48-->[androidx.emoji2:emoji2:1.2.0] C:\Users\e851762\.gradle\caches\transforms-3\27ea2d1fe40306b6a6ebc7514e2ae640\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+49            <meta-data
+49-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\e851762\.gradle\caches\transforms-3\1d1173f99a1313055c26367e9296308a\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+50                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+50-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\e851762\.gradle\caches\transforms-3\1d1173f99a1313055c26367e9296308a\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+51                android:value="androidx.startup" />
+51-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\e851762\.gradle\caches\transforms-3\1d1173f99a1313055c26367e9296308a\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+52        </provider>
+53    </application>
+54
+55</manifest>

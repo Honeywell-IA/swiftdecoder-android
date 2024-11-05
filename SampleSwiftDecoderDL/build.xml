@@ -1,0 +1,52 @@
+<project name="sdm-android-DL" default="build-sdm-android-DL" basedir=".">
+	<dirname property="sdm-android-DL.basedir" file="${ant.file.sdm-android-DL}"/>
+	<property file="${sdm-android-DL.basedir}/sdm-android-DL.properties"/>
+	
+	<property name="sdm-android-DL_versionName" value="6.0.6_DL_MAx_DOF" />
+	<property name="testapp_directory" value="${basedir}/Releases/SDM-DL" />
+	<property name="resultAPK"
+				value="${testapp_directory}/SDM_Android_DL_${sdm-android-DL_versionName}.apk" />
+
+	<condition property="executable" value="cmd" else="sh">
+	<os family="windows" />
+	</condition> 
+	<condition property="args" value="/c" else="-c">
+	<os family="windows" />
+	</condition>
+	<condition property="gradleexecutable" value="gradlew.bat" else="./gradlew">
+	<os family="windows" />
+	</condition> 
+
+	<target name="copy_sdmtest_android">
+	<property
+		name="sdmtest_build_path" 
+		value="${sdm-android-DL.basedir}/build/outputs/apk/release/SampleDLProject-release.apk"
+	/>
+	<copy
+		  file="${sdmtest_build_path}"
+		  tofile="${resultAPK}"
+	/>
+	</target>
+
+	<target name="clean_sdmtest_android">
+	   <exec executable="${executable}" dir="${sdm-android-DL.basedir}/..">
+		 <arg value="${args}" />
+		 <arg value="${gradleexecutable} SampleDLProject:clean" />
+	   </exec>
+	</target>
+
+	<target name="build_sdmtest_android" >	
+	<exec executable="${executable}" dir="${sdm-android-DL.basedir}/..">
+	  <arg value="${args}" />
+	  <arg value="${gradleexecutable} SampleDLProject:assembleRelease" />
+	</exec>
+	</target>
+  
+  	<target name="build-sdm-android-DL" >
+		<antcall target="clean_sdmtest_android" />
+		<antcall target="build_sdmtest_android" />
+		<antcall target="copy_sdmtest_android" />
+	</target>
+	
+ 
+</project>

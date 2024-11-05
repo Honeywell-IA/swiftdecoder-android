@@ -1,0 +1,929 @@
+
+Version 6.0.22
+Date 2024-09-24
+-Added Redundancy check setting for a specific set of symbologies before returning the result
+
+Version 6.0.21
+Date 2024-09-19
+-Added DLAgeVerification AR feature for PDF417 based Driver's License
+-Updated License manager version to 2024.09.377 to mitigate CS vulnerabilities
+
+Version 6.0.20
+Date 2024-09-13
+-Updated registerPlugin Api to handle only one plugin at a time.
+-Migrated Stock plugin to Layout based Design.
+-Added SwiftOCRBounds to proguard file.
+
+Version 6.0.19
+Date 2024-08-12
+-Added API for augmented reality overlay color configuration
+
+Version 6.0.18
+Date 2024-07-29
+-Updated the NDK version to r26d for all the components
+-Fix for progaurd obfuscation naming
+
+
+Version 6.0.17
+Date 2024-06-19
+-Fixed Blank Proxy URL Activation Issue
+-Fixed OpenOCR Full Preview Decoding Issue.
+
+Version 6.0.16
+Date 2024-06-17
+-Fixed Reset Issue For SwiftFind
+
+Version 6.0.15
+Date 2024-06-11
+- Template OCR feature issue fixes on SwiftOCR SDK
+
+Version 6.0.14
+Date 2024-06-07
+- OpenOCR Issue Fixes
+
+Version 6.0.13
+Date 2024-05-28
+-Added support for Open OCR feature on SwiftOCR Library
+
+Version 6.0.12
+Date 2024-05-27
+-Renamed callback function on BatchScanResultListener
+-Changes for SwiftFind plugin to initiate without a layoutID
+
+Version 6.0.11
+Date 2024-05-14
+-Added item counting feature to PreviewSelect and BatchScan Plugins
+-AR Overlay fixes
+
+Version 6.0.10
+Date 2024-04-17
+-Resolution configuration support added (auto,fullhd,uhd & maxdof) along with microservice support.
+-Augmented Reality feature Improvements
+-AugmentedRealityPlugin renamed to PreviewSelectPlugin and moved to com.honeywell.plugins.ar.previewselect
+-PanaromicDecodePlugin renamed to BatchScanPlugin and moved to com.honeywell.plugins.ar.batchscan
+-PanaromicDecodeResultListener renamed to BatchScanResultListener and moved to com.honeywell.plugins.ar.batchscan
+-StockPlugin moved to com.honeywell.plugins.ar.stockscan
+-SwiftFindPlugin added
+-Updated decoder to version 2024.04.11051
+-Template OCR Functionality moved to SwiftOCR lib with required renaming of exposed classes.
+-Template OCR Improvements
+-Per frame decode now supports max 50 barcodes in a preview.
+
+Version 6.0.9
+Date 2024-04-9
+-SwiftOCR Internal Component redesign.
+
+Version 6.0.8
+Date 2024-04-9
+-Updated decoder to version 2024.04.11050
+-Updated License Manager to version 2024.04.375
+
+Version 6.0.4
+Date- 2024-02-22
+-Added more error handling for Unique ID used for License activation
+-Proxy deactivation for entitlement ID feature added.
+
+Version 6.0.3
+Date- 2024-02-12
+-SwiftOCR dependency with native library version increased
+
+Version 6.0.2
+Date- 2024-02-12
+-DefaultDecodePlugin class exposed
+
+Version 6.0.1
+Date- 2024-02-5
+-Added Search and Find feature based on layout design.
+-Static linking of c++ libs.
+
+Version 6.0.0
+Date- 2024-01-10
+-Added separated Template OCR Library.
+-Added Currency Symbol as common library for Euro and Pound Detection.
+
+Version 5.8.20
+Date 2024-03-04
+-Added International DL scan
+
+Version 5.8.19
+Date 2024-1-08
+- Updated missing documentation blocks
+
+Version 5.8.18
+Date 2023-12-05
+- Updated Decoder Libs to version 2023.11.11047
+
+Version 5.8.17
+Date 2023-11-21
+- Updated License manager version 2023.11.372 for OSS compliance,it has latest curl(8.4.0)
+- Updated Progaurd file to expose required classes to be used by customer
+
+
+Version 5.8.16
+Date 2023-10-19
+- Static Analysis Issue Fix for Resource Leak
+
+Version 5.8.15
+Date 2023-09-15
+- Enabled rMQR setting to detect rMQR under Symbology QR code
+- Enabled Code Obfuscation
+- Updated License manager version 2023.10.371 for OSS compliance,it has latest openssl(1.1.1w) and curl(8.3.0)
+- Updated Decoder Libs to version 2023.09.11046
+
+Version 5.8.14
+Date 2023-09-15
+- Removed Template OCR functionality
+- minSdkVersion updated to 29(Android 10) from 26
+- AndroidX migration 
+
+Version 5.8.13
+Date 2023-08-24
+- Updated LM to version 2023.08.370
+- Updated EZDL to support "EN"subfile type
+- Added Camera Manager clean  during disposal of HSMDecoder instance
+- Moved initialization of template OCR feature model files  while addition of first template
+
+Version 5.8.12
+Date 2023-07-13
+- Target mode set to the center
+- Added API to set size of target window
+
+Version 5.8.11
+Date 2023-07-07
+- Improvement for Target Mode.
+
+Version 5.8.10
+Date 2023-07-05
+- Implemented TemplateOCR For Landscape Mode
+
+Version 5.8.9
+Date 2023-06-30
+- Updated Decoder libs for version 2023.6.11044
+- Fixed crash issue with continuous scan while switching screen
+- Updated License manager version to 2023.06.369
+
+
+Version 5.8.8
+Date 2023-06-28
+- Improvement for handling decoder image size.
+
+
+Version 5.8.7
+Date 2023-05-31
+- Fix for Windowing Plugin while screen Rotation
+
+Version 5.8.6
+Date 2023-05-31
+- Fix for TemplateOCR For CT Honeywell Devices
+
+Version 5.8.5
+Date 2023-05-09
+- Updated Decoder libs for version 2023.04.11042
+- Removed some of debug logs while handling image frames
+
+Version 5.8.4
+Date 2023-04-28
+- Decoder Update to version 2023.04.11042
+
+Version 5.8.3
+Date 2023-04-24
+- Added length checks for codabar symbology
+- Fixed crash on removeall plugin.
+
+Version 5.8.2
+Date 2023-04-13
+- Updated Decoder Version to 2023.02.11037
+- Crop Region for zoom Fix for CT30
+
+Version 5.8.1
+Date 2023-02-16
+- minSdkVersion updated to 26 from 22
+- Changes for referencing the usage of DecoderManager within HSM decoder.
+- Documentation changes for create/dispose of HSMDecoder Instance
+- Updated opensource components gson(2.10.1) and fernet(1.5.0)
+
+Version 5.8.0
+Date 2023-01-31
+- Support for License Activation through proxy server for Entitlement ID
+
+Version 5.7.9
+Date 2023-03-06
+- Updated opensource components gson(2.10.1) and fernet(1.5.0)
+
+Version 5.7.8
+Date 2023-03-01
+- Updated License manager version 2023.03.364
+
+Version 5.7.7
+Date 2023-01-30
+- Updated License manager version 2023.01.362
+- Fixed Windowing issue
+- Added Api to set Full Window Mode 
+
+Version 5.7.6
+Date 2022-01-11
+- Digimarc Support removed
+
+Version 5.7.5
+Date 2022-11-18
+- Freeze Frame AR plugin update
+
+Version 5.7.4
+Date 2022-11-18
+- Template OCR fixes
+- Added new API to force configure usage of Camera 1 due to legacy hardware restrictions
+
+Version 5.7.3
+Date 2022-11-03
+- Added API for FreezeFrame in full preview and AR plugin mode
+- Updated License manager version 2022.11.361
+- Template OCR fixes for performance improvement
+
+Version 5.7.2
+Date 2022-10-27
+- Template OCR support for handling reference  barcode with multiple barcodes as input
+
+Version 5.7.1
+Date 2022-10-18
+- Support for new feature Template OCR
+
+Version 5.7.0
+Date 2022-08-18
+- Added new feature Freeze Frame mode for basic scan
+
+Version 5.6.15
+Date 2022-07-20
+- Updated License manager to 2022.07.357
+
+Version 5.6.14
+Date 2022-07-18
+- Removed Red Overlay in Stock Plugin
+- Null check for overlay Images
+
+Version 5.6.13
+Date 2022-07-07
+- Fix for Black Preview Screen after screen goes in Background.
+
+Version 5.6.12
+Date 2022-07-07
+- Updated License manager to 2022.06.355
+
+Version 5.6.11
+Date 2022-06-29
+- Optimized Code for disappearing persistent Overlay for Price Plugin.
+
+
+Version 5.6.10
+Date 2022-06-10
+- Added new AR plugins functionality for handling Stock and Price
+- Dropped support x86 architecture
+- Added interface for configuring serial number as unique ID for license activation
+
+
+Version 5.6.9
+Date 2022-04-19
+- License Manager library updated to version 2022.04.352
+- Added checks for blank entitlement and activation ID's and returned error code 1002
+- Issue fixes for Refresh API call
+
+Version 5.6.8
+Date 2022-04-12
+- License Manager library updated to version 2022.04.351
+
+Version 5.6.7
+Date 2022-04-11
+- Fixed the Decode time issue for Digimarc integration
+- Fixed the crash for offline activation while consuming expired capabilityResponse.bin
+
+Version 5.6.6
+Date 2022-03-21
+- License Manager library updated to version 2022.03.348 with openssl 1.1.1n and curl 7.82
+
+Version 5.6.5
+Date 2022-03-16
+- DigimarcSDK Integration
+
+Version 5.6.4
+Date 2022-03-15
+- Refresh License API
+- License time remaining api
+- License Manager error codes
+
+Version 5.6.3
+Date 2022-03-10
+- License Manager library updated to version 2022.03.347 
+
+Version 5.6.2
+Date 2022-02-17
+- Update JNI GetProperty API to fix a crash issue(EWR_06870817)
+
+Version 5.6.1
+Date 2022-02-08
+- License Manager library updated to version 2022.01.341
+
+Version 5.6.0
+Date 2022-01-05
+-update return type of consumeLicenseResponse api
+
+Version 5.5.11
+Date 2021-12-17
+Batch scan issue fix :SD-1965
+
+
+Version 5.5.10
+Date 2021-11-11
+- Updated EZMV and EZBP libraries
+
+Version 5.5.9
+Date 2021-10-29
+-Updated minSDK(22) and targetSDK(30) version
+
+Version 5.5.8
+Date 2021-10-27
+-MRZ parser licensing support added onto SDK
+
+Version 5.5.7
+Date 2021-10-24
+-EZBP integrated as part of SDK
+
+Version 5.5.6
+Date 2021-10-19
+- EZMV integrated as part of SDK 
+
+Version 5.5.5
+Date 2021-10-04
+- EZDL integrated as part of SDK instead of separate aar for EZDL
+
+Version 5.5.4
+Date 2021-09-24
+- Added Camera2 Zoom feature set/get zoom ratio
+
+Version 5.5.3
+Date 2021-09-22
+- License Manager library updated to version 2021.09.339 with curl to 7.79 and openssl 1.1.1l
+
+Version 5.5.2
+-Fixed the Camera2 preview distortion
+
+Vesion 5.5.1
+- Updated the minSdkVersion and targetSdkVersion to 27 to meet the cyber security requirements.
+
+Version 5.5.0
+- Added Raw MRZ parsing support to SDK.
+
+Version 5.4.8
+Date 2021-08-23
+- Updated OSS Legal Document
+
+Version 5.4.7
+Date 2021-08-12
+- License Manager library updated to version 2021.08.338(with android proxy issue fix) and curl 7.78.0
+
+Version 5.4.6
+Date 2021-07-15
+- Decoder libraries to 2021.6.10869.
+
+Version 5.4.5
+Date 2021-07-12
+- Scan activity preview goes black issue fix.
+- getLastDecodedImage Api method fix.
+- License Manager library updated to version 2021.07.336 and curl 7.77.0
+
+Version 5.4.4
+Date 2021-07-01
+- setServerURL API is added to the ActivationManager.
+- Removed APIs overloaded with serverURL parameter. 
+
+Version 5.4.3
+Date 2021-06-25
+- Windowing barcode image cropping issue resolved.
+
+Version 5.4.2
+Date 2021-06-09
+- Added support for license deactivation.
+- License Manager library updated to version 2021.05.334
+
+Version 5.4.1
+Date 2021-05-29
+- Removed saveLastImageAsRaw, saveLastImageAsPng, saveLastDecodedImageAsPng, saveLastImageAsJpg APIs
+- Renamed getLastImage to getLastProcessedImage
+- Added getLastDecodedImage, captureHiResImage, getDecoderConfig APIs
+
+Version 5.4.0
+Date 2021-05-20
+- Image saving features enhancements.
+- saveLastDecodedImageAsPng api function added.
+- Fixed multiple overlay texts on Windowing plugin preview.
+
+Version 5.3.25
+Date 2021-06-30
+- Fix image capture background thread for Cordova integration
+
+Version 5.3.24
+Date 2021-05-07
+- License Manager library updated to version 2021.05.333 which addresses crash on wrong server URL.
+
+Version 5.3.23
+Date 2021-04-16
+- License Manager library updated to version 2021.04.332
+
+Version 5.3.22
+Date 2021-04-07
+- Added Android IME(InputMethodEditor) support for SDM
+
+Version 5.3.21
+Date 2021-04-05
+- Added the fix for DOF issue on 5.3.20 with Camera2 API
+
+Version 5.3.20
+Date 2021-03-31
+- License Manager library updated to version 2020.03.331.
+- Added support for Entitlement ID license activation.
+
+Version 5.3.19
+Date: 2021-03-17
+- License Manager library updated to version 2020.02.330 that Update openssl 1.1.1j.
+
+Version 5.3.18
+Date: 2021-03-09
+- License Manager library updated to version 2020.02.329 that Update openssl 1.1.1i Curl 7.74.0
+
+Version 5.3.17
+Date: 2021-03-03
+- getLicenseManagerVersion api added
+- License Manager library updated to version 2020.02.328
+
+Version 5.3.16
+Date: 2021-02-22
+- getDecoderVersion method returns Decoder version only
+
+Version 5.3.15
+Date: 2021-02-09
+- Fixed crash issue on android 11
+
+Version 5.3.14
+Date: 2021-01-01
+- Update openssl to 1.1.1i
+- Update curl to 7.74.0
+
+Version 5.3.13
+Date: 2021-01-15
+- Added vibrator on good read
+
+Version 5.3.12
+Date: 2020-10-27
+- Fixed issues with Targeting
+- Fixed issues with flash
+
+Version 5.3.11
+Date: 2020-10-12
+- Fixed issues with Preview& select
+-Fixed issues with windowing and Batch decode
+Version 5.3.10
+Date: 2020-06-27
+-Support for get device id
+
+Version 5.3.9
+Date: 2020-06-02
+- Fixed an issue when switching license keys
+
+Version 5.3.8
+Date: 2020-03-06
+- Support http proxy server
+
+Version 5.3.1
+Date: 2019-07-08
+- Improve sample app (permission management)
+- Fix memory leaks
+
+Version 5.3.0
+Date: 2019-05-23
+- Add support for Camera2
+
+Version 5.2.13
+Date: 2020-09-01
+- Added logs for local file activation
+
+Version 5.2.11
+Date: 2020-06-25
+- Fix internal storage path incompatible with Android4work
+
+Version 5.2.10
+Date: 2020-05-25
+- case 02734833: fix can't switch the license key.
+
+Version 5.2.9
+Date: 2020-04-09
+- Remove unneeded Android permissions
+
+Version 5.2.7
+Date: 2020-03-26
+- case 02734833: fix can't switch the license key.
+
+Version 5.2.5
+Date: 2020-02-11
+- Update openssl version to 1.1.1d
+- Update curl version to 7.68.0
+
+Version 5.2.2
+Date: 2019-11-15
+- Update openssl version to 1.1.1c
+- Update curl version to 7.65.3
+
+Version 5.2.1
+Date: 2019-10-21
+- Decoder version 2019.07.8401
+- New Feature: Offline Activation.
+
+Version 5.2.0
+Date: 2019-06-21
+- Add support for x86_64
+
+Version 5.1.5
+Date: 2019-03-26
+- Add support for arm64-v8a
+
+Version 5.1.4
+Date: 2019-03-01
+- Fix issue in the Windowing plugin where 2 aimers were present when the aimer was enabled.
+
+Version 5.1.3
+Date: 2019-02-27
+- Custom build with Decoder version 2019.02.7378
+
+Version 5.1.2
+Date: 2019-01-30
+- Change result formatting of HSMDecoder.getDecoderVersion().
+
+Version 5.1.1
+Date: 2019-01-30
+- Decoder version 2019.01.7059
+
+Version 5.1.0
+Date: 2019-01-29
+- Remove deactivate functions from the API
+- Fix issue in the AR plugin where bounding boxes are not well positioned when using the front camera.
+
+Version 5.0.38
+Date: 2018-11-12
+- Fix barcode output in decode component activity.
+
+Version 5.0.36
+Date: 2018-10-30
+- Fix aimer and text disappearing
+- Fix preview not showing when navigating to another camera app
+- Fix com.honeywell.barcode.HSMDecoder.getDecoderProperty()
+- Add decoder properties document
+
+Version 5.0.35
+Date: 2018-10-22
+- Fix read failures on particular devices, after one succesful read
+
+Version 5.0.34
+Date: 2018-10-10
+- Changed license manager to version 2018.10.303, with OpenSSL 1.0.2
+
+Version 5.0.33
+Date: 2018-10-09
+- Fix memory leaks
+- Simplify decode base plugin API
+
+Version 5.0.32
+Date: 2018-09-12
+- Add classes CodeId, SymbologyId and SymbologyIdEx to API documentation.
+- Stop opening camera during license activation.
+- Simplify native library loading
+- Decoder version 2018.07.6132
+   - Added SD_PROP_I25_HIGH_DENSITY property to improve decoding of high density Interleaved 2 of 5 barcodes.    
+   - Added DEC_I25_HIGH_DENSITY property to improve decoding of high density Interleaved 2 of 5 barcodes.
+   - Added DEC_LINEAR_DECODE_POLARITY property to select polarity of linear barcodes (normal, inverse or both).
+     DEC_VIDEO_REVERSE_ENABLED must be set to 0 to use this property.
+   - Third bit of DEC_C128_OUT_OF_SPEC_SYMBOL property is used to decode Code 128 barcodes
+     with Out of Spec start patterns (first bar is 1X).
+   - Now, decoder can manage up to 16 barcodes in case of structured append.
+   - Improved QR and DotCode decode time
+   - Improved OCR passport decoding: 0/O disambiguation
+   - Added DEC_CODE39_UNCONV_INTER_CHAR to read Code 39 barcodes with unconventional interchars
+   - Fixed bug in some linear codes lengths check (labels with less chars than required by Min length could be issued)
+   - Fixed an aimer position issue in ROI.
+   - Removed DEC_PDF417_SHOW_GLI property (deprecated).
+   - Fixed access violation issue when aimerX/aimerY were set at 75% of the image width/height
+   - Datamatrix Improvements (module size and barcode size estimations)
+   - Binarization improvements (Datamatrix, QR)
+   - Relaxed MSI start verification (EWR-25983)
+   - Modified the external bar check for MSI to avoid a bar partially in the checked area
+   - Forced external bar check for MSI in case of short quiet zone active
+   - DotCode improvements for high PPM codes
+   - Fixed bug where the code 39 check character stripping was applied to trioptic code
+   - Enabled by default the ID_PROP_CYCLING_FINDER property
+   - Trioptic formatting is applied only when the length is 6 characters
+   - Improved reading of damaged MSI labels
+   - Bugfix for TD1 cards when check digit of the first line is in optional data field
+   - Bug fix for French ID card when department of issuance is alpha
+
+Version 5.0.31
+Date: 2018-09-03
+- Add classes CodeId, SymbologyId and SymbologyIdEx to API documentation.
+- Stop opening camera during license activation.
+
+Version 5.0.29
+Date: 2018-08-22
+- Change target armeabi to armeabi-v7a
+
+Version 5.0.28
+Date: 2018-08-08
+- Simplify native library loading
+
+Version 5.0.18
+Date: 2018-01-19
+Author: Christophe Foucher
+- API changes: new API function setAutofocus, new plugin function setAccentColor
+- Update sample project build.gradle with new syntax, adding google repository
+- Add DecodeBasePlugin to the HTML documentation
+
+Version 5.0.17
+Date: 2017-11-13
+Author: Christophe Foucher
+- Fix: camera FPS range was set to unsupported range on some devices.
+
+Version 5.0.16
+Date: 2017-10-26
+Author: Christophe Foucher
+- Bugfix: when starting reading, the camera was not open on certain conditions.
+
+Version 5.0.14
+Date: 2017-10-11
+Author: Christophe Foucher
+- Fix: improve the windowing plugin visual rendering when the window is very small
+
+Version 5.0.13
+Date: 2017-09-11
+Author: Christophe Foucher
+- API changes: ActivationManager.isActivated takes a context argument
+- Fix: the decoder was resulting garbled results when deactivated
+
+Version 5.0.12
+Date: 2017-08-09
+Author: Christophe Foucher
+- Decoder version 2017.07.5018
+- Add DotCode symbology
+
+Version 5.0.11
+Date: 2017-07-12
+Author: Christophe Foucher
+- Decoder version 2017.07.4977
+
+Version 5.0.10
+Date: 2017-06-26
+Author: Christophe Foucher
+- Add Grid Matrix symbology
+
+Version 5.0.9
+Date: 2017-06-22
+Author: Christophe Foucher
+- decoder version 2017.6.4556
+
+Version 5.0.4
+Date: 02/08/2017
+Author: Christophe Foucher
+- Improve speed of camera preview close when a barcode has been read
+
+Version 5.0
+Date: 11/16/2016
+Author: Erik Todeschini
+- Enhanced decoding algorithms (integrated decoder)
+
+Version 4.12
+Date: 11/15/2016
+Author: Erik Todeschini
+- Updated TLS to v1.2
+- Updated DCL and LM
+
+Version 4.11
+Date: 8/30/2016
+Author: Erik Todeschini
+- Fixed bug that reset custom camera settings when keepCameraInitialized was set to false
+- Increased decodeAttemptsPerAFCycle default to 8
+
+Version 4.10
+Date: 5/31/2016
+Author: Erik Todeschini
+- Added dispose method to HSMDecodeComponent to prevent memory leak in certain scenarios
+
+Version 4.9
+Date: 5/9/2016
+Author: Erik Todeschini
+- Fixed race condition in HSMDecodeComponent method enableScanning()
+- Increased default max decode count to 10
+- Provide single .aar library package file containing all required resources
+- Formatted Sample project for Android Studio
+
+Version 4.8
+Date: 2/29/2016
+Author: Erik Todeschini
+- Added GS1 data parser
+
+Version 4.7
+Date: 2/19/2016
+Author: Erik Todeschini
+- Clock wind back disabled for perpetual licenses
+- Switched from a license per application model, to a license per device model
+
+Version 4.6
+Date: 2/12/2016
+Author: Erik Todeschini
+- Added enableScanning() method to HSMDecodeComponent to start/stop scanning
+
+Version 4.5
+Date: 1/14/2016
+Author: Erik Todeschini
+- Fixed OCR US Passport bug
+
+Version 4.4
+Date: 11/3/2015
+Author: Erik Todeschini
+- Updated external to support Local License Server activation
+- Fixed local file activation crash
+- Added ability to disable WindowingPlugin resizing
+
+Version 4.3
+Date: 10/8/2015
+Author: Erik Todeschini
+- added ability set the number of decode attempts per auto-focus cycle
+- added x86 support
+
+Version 4.2
+Date: August 27, 2015
+Author: Erik Todeschini
+- added ability to pass any 8bpp image to the decoder for direct processing
+- added rotation support to all plug-ins
+
+Version 4.1
+Date: August 17, 2015
+Author: Erik Todeschini
+- added signed binary file activation support
+
+Version 4.0
+Date: January 28, 2015
+Author: Erik Todeschini
+- Flexera licensing
+- Postal Code Support
+- Ability to access camera
+- Added panoramic decode plug-in
+
+Version 3.4
+Date: October 21, 2014
+Author: Erik Todeschini
+- Added augmented reality plug-in to core API
+
+Version 3.3
+Date: October 20, 2014
+Author: Erik Todeschini
+- Removed most SwiftPlugins from base and into their own libraries
+- Fixed a bug that prevented auto-focus from cycling in certain situations
+- Added analytics engine
+
+Version 3.2
+Date: August 26, 2014
+Author: Erik Todeschini
+- Set default focus mode to "macro"
+- Set default ISO mode to ISO-800 (if supported)
+
+Version 3.1
+Date: May 12, 2014
+Author: Erik Todeschini
+- Added ability for SwiftPlugins to inflate their own UI
+
+Version 3.0
+Date: November 11, 2013
+Author: Erik Todeschini
+- Complete architecture redesign that adds an extensibility layer for extreme customization of real-time preview and data-formating.
+- Breaks backward compatibility with v2.x
+- HSMDecoder is now a singleton that can be used anywhere in an application 
+- The SwiftPlugin class can be extended to create and register decode plugins with the system
+- New DecodeComponent that allows drop-in decode functionality into a custom activity.
+
+Version 2.6	
+Date: September 19 2013
+Author: Erik Todeschini
+- Made changes to the structure of namespaces within the API for build purposes.  
+THIS WILL REQUIRE A CHANGE TO the calling application's AndroidManifest.xml file!
+Any application referencing either the HSMCameraPreview or HSMActivationService will now need to use the following namespaces:
+NEW: com.honeywell.camera.HSMCameraPreview				PREVIOUSLY: com.honeywell.barcode.HSMCameraPreview
+NEW: com.honeywell.activation.HSMActivationService		PREVIOUSLY: com.honeywell.barcode.HSMActivationService
+
+Version 2.5	
+Date: September 11 2013
+Author: Erik Todeschini
+- Fixed Galaxy S4 auto-focus termination bug
+
+Version 2.4	
+Date: March 19 2013
+Author: Erik Todeschini
+- Changed description on save file methods
+- Updated remote activation process
+
+Version 2.3
+Date: March 6 2013
+Author: Erik Todeschini
+- Added DLP Activation
+
+Version 2.2
+Date: December 28 2012
+Author: Erik Todeschini
+- Fixed but that prevented debug properties from persisting after an activation
+
+Version 2.1
+Date: December 13 2012
+Author: Erik Todeschini
+- Changed Aimer to be consistent with iOS
+- Added debugging methods
+- new JNI v293
+
+Version 2.0
+Date: November 27 2012
+Author: Erik Todeschini
+- Added support for multiple decodes
+- Added SetDecodeMode() method that allows you to specify how many decode results are returned
+- Added GetDeocdeMode()
+- Removed EnableAugmentedRealityMode() and EnableContinuousMode() methods, as these can now be set via SetDecodeMode()
+- Moved all objects to the com.honeywell.barcode namespace for security reasons. 
+
+Version: 1.8
+Date: October 26 2012
+Author: Erik Todeschini
+- Merged decoder trunk changes (v2.10.1), new JNI (v264)
+- Added comments for AxiomDecoder
+
+Version: 1.7
+Date: October 10 2012
+Author: Erik Todeschini
+- Edited addenda search time so that when an addenda is enabled, a UPC code can still be processed with only one frame.
+
+Version: 1.6
+Date: October 9 2012
+Author: Erik Todeschini
+- Minor maintenance updates (documentation updates, layout widget naming convention, resource added)
+- Added the ability to auto-reconnect to the camera in the event that the camera was manually released within a HSMCameraPreview subclass.
+
+Version: 1.5
+Date: October 5 2012
+Author: Erik Todeschini
+- Added the ability to manually release and re-acquire connection to the camera.  This will allow developers to manage this connection how they please.
+
+Version: 1.4
+Date: October 4 2012
+Author: Erik Todeschini
+- Added the ability to configure the HSMCameraPreview activity screen orientation via android:screenOrientation property within the application manifest.  This allows the user to decode in portrait mode.
+
+Version: 1.3
+Date: October 3 2012
+Author: Erik Todeschini
+- Added hsm_ prefix to all widgets within layout files to ensure no conflicts during ISV integration
+- Fixed a bug in the handling of non-printable ASCII chars in the HSMDecodeResults data string property
+
+Version: 1.2
+Date: September 26 2012
+Author: Erik Todeschini
+- Added support for time-limited remote activation licenses
+
+Version: 1.1
+Date: September 24 2012
+Author: Erik Todeschini
+- Added garbled pre-activation support for QR Code, Data Matrix, UPC A, UPC E, EAN 8, EAN 13, Code 39, Code 128, PDF-417, Aztec
+
+Version: 1.0
+Date: September 19 2012
+Author: Erik Todeschini
+- Updated build process
+- First release build
+
+Version: RC4
+Date: September 11 2012
+Author: Erik Todeschini
+- Added IsActivated() method
+- Fixed Activation Retention bug that was caused when activation occurred before service connection was made
+- Increased max activation mode retention to 7200 minutes (5 days)
+
+Version: RC3
+Date: August 20 2012
+Author: Erik Todeschini
+- Changes made to enableSymbology function signature.
+- Added DisableSymbology method
+- Added BarcodeBounds class to replace int[] in HSMDecodeResults
+- Changed getHHPCodeId() to getCodeId() within HSMDecodeResults
+- Renamed Utils class to ImageUtils
+- Renamed ActivationWebService to ActivationWebServiceClient
+- Capped default max preview size to 1280x720, still able to be manually set higher
+- Set MSI min length to 6
+-  Added accessor methods to HSMDecodeResults
+
+Version: RC2
+Date: July 31 2012
+Author: Erik Todeschini
+- Fixed issue with KeepCameraInitialized method.  When set to false this method still held the camera open if the app was closed before any scan attempt
+
+Version: RC1
+Date: July 25 2012
+Author: Erik Todeschini
+- Initial build

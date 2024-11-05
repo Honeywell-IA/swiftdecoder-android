@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['getbottomleft_79',['getBottomLeft',['../classcom_1_1honeywell_1_1swiftocr_1_1_swift_o_c_r_bounds.html#a65bbe00668ac7d81bbb89931076f4282',1,'com::honeywell::swiftocr::SwiftOCRBounds']]],
+  ['getbottomright_80',['getBottomRight',['../classcom_1_1honeywell_1_1swiftocr_1_1_swift_o_c_r_bounds.html#a093d981c69a96866ad1a9c64eee3738e',1,'com::honeywell::swiftocr::SwiftOCRBounds']]],
+  ['getinstance_81',['getInstance',['../classcom_1_1honeywell_1_1swiftocr_1_1_swift_o_c_r_decoder.html#a638c39cccb1abae826a899cac48a8150',1,'com::honeywell::swiftocr::SwiftOCRDecoder']]],
+  ['getocrbounds_82',['getOCRBounds',['../classcom_1_1honeywell_1_1swiftocr_1_1_swift_o_c_r_result.html#aa595b9b95745307fb35b33dc7982bd3c',1,'com::honeywell::swiftocr::SwiftOCRResult']]],
+  ['getocrdata_83',['getOCRData',['../classcom_1_1honeywell_1_1swiftocr_1_1_swift_o_c_r_result.html#aae2f928dae63d784d9b851c9993d523f',1,'com::honeywell::swiftocr::SwiftOCRResult']]],
+  ['getocrdatalength_84',['getOCRDataLength',['../classcom_1_1honeywell_1_1swiftocr_1_1_swift_o_c_r_result.html#a1f9ad74aacaebc33c4e60e15301464f0',1,'com::honeywell::swiftocr::SwiftOCRResult']]],
+  ['getocrdetectionmode_85',['getOCRDetectionMode',['../classcom_1_1honeywell_1_1swiftocr_1_1_swift_o_c_r_decoder.html#a825611721591e2cee853e330dde00222',1,'com::honeywell::swiftocr::SwiftOCRDecoder']]],
+  ['getocrrecognitiontime_86',['getOCRRecognitionTime',['../classcom_1_1honeywell_1_1swiftocr_1_1_swift_o_c_r_result.html#aab3cfc40804bfad992935e8d89daf750',1,'com::honeywell::swiftocr::SwiftOCRResult']]],
+  ['getocrtotaltime_87',['getOCRTotalTime',['../classcom_1_1honeywell_1_1swiftocr_1_1_swift_o_c_r_result.html#a501ee2907e21b77a180de45e4887038e',1,'com::honeywell::swiftocr::SwiftOCRResult']]],
+  ['getoriginalimageheight_88',['getOriginalImageHeight',['../classcom_1_1honeywell_1_1swiftocr_1_1_swift_o_c_r_bounds.html#a42bcd535b1c2050cff92445038ea6159',1,'com::honeywell::swiftocr::SwiftOCRBounds']]],
+  ['getoriginalimagewidth_89',['getOriginalImageWidth',['../classcom_1_1honeywell_1_1swiftocr_1_1_swift_o_c_r_bounds.html#ae7e9067c4208368b5c79c4e0d97f3032',1,'com::honeywell::swiftocr::SwiftOCRBounds']]],
+  ['getswiftocrdecoderesults_90',['getSwiftOCRDecodeResults',['../classcom_1_1honeywell_1_1swiftocr_1_1_swift_o_c_r_template_result.html#a92898d3836f0d4ea4579aeddb12e4eb3',1,'com::honeywell::swiftocr::SwiftOCRTemplateResult']]],
+  ['getswiftocrscanarea_91',['getSwiftOCRScanArea',['../classcom_1_1honeywell_1_1swiftocr_1_1_swift_o_c_r_decoder.html#ad8e0139449e86d718461e9e315178965',1,'com::honeywell::swiftocr::SwiftOCRDecoder']]],
+  ['gettargetedsingleroiconfig_92',['getTargetedSingleROIConfig',['../classcom_1_1honeywell_1_1swiftocr_1_1_swift_o_c_r_decoder.html#aaee4dc80706778469dc35a0d5fbf4bba',1,'com::honeywell::swiftocr::SwiftOCRDecoder']]],
+  ['gettopleft_93',['getTopLeft',['../classcom_1_1honeywell_1_1swiftocr_1_1_swift_o_c_r_bounds.html#af27f7d02b1072ccdc93ca96ea7136dc9',1,'com::honeywell::swiftocr::SwiftOCRBounds']]],
+  ['gettopright_94',['getTopRight',['../classcom_1_1honeywell_1_1swiftocr_1_1_swift_o_c_r_bounds.html#a30d92d5f5b8d7247191361383fcf7ab4',1,'com::honeywell::swiftocr::SwiftOCRBounds']]]
+];

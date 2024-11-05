@@ -1,0 +1,68 @@
+apply plugin: 'com.android.application'
+
+buildscript {
+    repositories {
+        jcenter()
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.6.4'
+    }
+}
+
+android {
+    compileSdkVersion 34
+
+    defaultConfig {
+        applicationId "com.test"
+        minSdkVersion 29
+        targetSdkVersion 34
+        lintOptions {
+            checkReleaseBuilds false
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+}
+
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+    mavenCentral()
+    google()
+    jcenter()
+    mavenLocal()
+    repositories {
+
+    maven {
+
+        // Replace <TOKEN> with the token generated for your account
+        url = uri("https://maven.pkg.github.com/HON-IA-SD/swiftdecoder-android")
+        credentials {
+            username = '<GITHUB-USERNAME>'
+            password = '<TOKEN>'
+        }
+    }
+    }
+
+
+}
+
+dependencies {
+    // NOTE: implementation keyword is android gradle plugin version-3.0 and later
+
+    implementation 'androidx.core:core:1.0.0'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    //Replace x.x.x with the required version
+    implementation 'com.honeywell:swiftdecoder:x.x.x'
+    implementation 'com.honeywell:swiftdecoderdl:x.x.x'
+
+}

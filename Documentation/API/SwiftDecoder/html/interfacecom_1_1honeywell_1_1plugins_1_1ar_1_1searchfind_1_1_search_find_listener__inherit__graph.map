@@ -1,0 +1,4 @@
+<map id="com.honeywell.plugins.ar.searchfind.SearchFindListener" name="com.honeywell.plugins.ar.searchfind.SearchFindListener">
+<area shape="rect" id="node1" title="An interface that facilitates result handling for a serach and find opeartion." alt="" coords="5,151,240,264"/>
+<area shape="rect" id="node2" href="$interfacecom_1_1honeywell_1_1plugins_1_1_plugin_result_listener.html" title="The base interface all plug&#45;in result interfaces must extend. Used within the SwiftPlugin plug&#45;in arc..." alt="" coords="26,5,219,103"/>
+</map>

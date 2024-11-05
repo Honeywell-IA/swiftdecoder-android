@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="5"
+    android:background="@drawable/gradient">
+
+    <FrameLayout
+        android:layout_weight="4.5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <com.honeywell.barcode.HSMDecodeComponent
+            android:id="@+id/hsm_decode_component"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <View
+            android:id="@+id/view_scan_result_done"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/black"
+            android:alpha="0.75"
+            android:visibility="gone"
+            android:clickable="true" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="250dp"
+            android:id="@+id/resultsView"
+            android:visibility="invisible"
+            android:background="@color/color_schema_0"
+            android:layout_gravity="bottom">
+
+            <View
+                android:id="@+id/header1"
+                android:layout_width="fill_parent"
+                android:layout_height="2dip"
+                android:background="@color/honeywell_grey"/>
+
+            <ScrollView
+                android:id="@+id/scrollViewResults"
+                android:layout_width="match_parent"
+                android:layout_marginStart="3dp"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true">
+
+                <LinearLayout
+                    android:id="@+id/scrollViewLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+                </LinearLayout>
+
+            </ScrollView>
+
+        </RelativeLayout>
+        <include layout="@layout/content_scan_result" />
+    </FrameLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        >
+        <Button
+            android:id="@+id/OCRScanROIOrientation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ROI-V"
+            android:visibility="gone"/>
+        <Button
+            android:id="@+id/OCRScanArea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FULL-PREVIEW"
+            android:visibility="gone"/>
+        <Button
+            android:id="@+id/OCRScanZoom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ZOOM"
+            android:visibility="gone"
+            />
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enable OpenOCR"
+            android:textColor="@color/color_schema_0"
+            android:id="@+id/OCRSwitch"
+            android:checked="false"
+            android:textColorHint="@color/honeywell_dark_grey"
+            android:textOff="OFF"
+            android:textOn="ON"/>
+        />
+    </LinearLayout>
+
+</LinearLayout>

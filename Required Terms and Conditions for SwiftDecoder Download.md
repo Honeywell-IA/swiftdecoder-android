@@ -1,0 +1,5 @@
+BY DOWNLOADING THIS SOFTWARE OR ANY UPDATE THERETO, YOU CONFIRM THAT YOU AGREE TO BE BOUND BY ALL OF THE TERMS OF THE GOOGLE TERMS AVAILABLEAT 
+https://developers.google.com/terms
+(including any other terms referenced therein) AND HONEYWELL’S STANDARD TERMS AND CONDITIONS FOR PRODUCTIVITY SERVICES AND SOLUTIONS AVAILABLE AT 
+[IA Terms and Conditions of Sale (honeywell.com)](https://automation.honeywell.com/us/en/support/ia-terms-and-conditions-of-sale#productivity-solutions-and-services-pss)
+, AND YOU AGREE TO INDEMNIFY AND HOLD HARMLESS HONEYWELL AND EACH OF ITS AFFILIATES FOR ANY BREACH OR OTHER NON-COMPLIANCE WITH THESE TERMS AND CONDITIONS

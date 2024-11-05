@@ -1,0 +1,5 @@
+<map id="com.honeywell.plugins.DecodeBasePlugin" name="com.honeywell.plugins.DecodeBasePlugin">
+<area shape="rect" id="node1" title="This is the decoder base plug&#45;in. It is used to give a base set of features to all plug&#45;ins that deri..." alt="" coords="6,423,207,1048"/>
+<area shape="rect" id="node3" href="$classcom_1_1honeywell_1_1plugins_1_1decode_1_1_windowing_plugin.html" title="A SwiftPlugin used to dynamically set the decoding mode using a Window or Target. This plugin mainly ..." alt="" coords="5,1096,208,1593"/>
+<area shape="rect" id="node2" href="$classcom_1_1honeywell_1_1plugins_1_1_swift_plugin.html" title="A SwiftPlugin is a special java plug&#45;in class that allows you to completely control the look and func..." alt="" coords="14,5,199,375"/>
+</map>
