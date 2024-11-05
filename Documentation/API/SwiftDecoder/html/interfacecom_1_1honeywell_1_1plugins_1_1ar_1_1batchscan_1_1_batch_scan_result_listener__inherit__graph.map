@@ -1,4 +1,0 @@
-<map id="com.honeywell.plugins.ar.batchscan.BatchScanResultListener" name="com.honeywell.plugins.ar.batchscan.BatchScanResultListener">
-<area shape="rect" id="node1" title="This interface must be implemented by any class that wishes to receive decoder results." alt="" coords="5,151,241,248"/>
-<area shape="rect" id="node2" href="$interfacecom_1_1honeywell_1_1plugins_1_1_plugin_result_listener.html" title="The base interface all plug&#45;in result interfaces must extend. Used within the SwiftPlugin plug&#45;in arc..." alt="" coords="27,5,219,103"/>
-</map>
