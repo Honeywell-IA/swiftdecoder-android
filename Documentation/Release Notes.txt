@@ -1,3 +1,35 @@
+Version 6.2.6
+Date 2024-12-24
+-Added SwiftScan Feature which allows to integrate the scanning widget on existng application
+- Issue fixes for Undecoded Barcodes ROI detection
+
+Version 6.2.5
+Date 2024-12-09
+-Updated DCL library to 2024.10.11055
+-Added Support for Undecoded Barcodes ROI detection which can be enabled disabled using EnableUndecodedBarcodeDetection and DisableUndecodedBarcodeDetection exposed on HSMDecodeResult
+-The Undecoded result can be checked using isDecodedSymbology on HSMDecodeResult
+-On Enabling Undecoded Barcode ROI detection the PreviewSelect and BatchScan AR features will render an Undecoded overlay with exclamation mark at center
+
+Version 6.2.4
+Date 2024-12-09
+-DL Library supports API to Scan an Image ByteArray directly without any camera component
+-Separate DLScanComponent added as an option for embedding camera component
+
+Version 6.2.3
+Date 2024-12-02
+-Updated License Manager to 2024.11.378 
+
+Version 6.2.2
+Date 2024-11-28
+-Implemented MultiROI Feature 
+
+Version 6.2.1
+Date 2024-11-22
+- Implemented Codabar 7D Length Setting
+
+Version 6.2.0
+Date 2024-11-14
+- Multiple language support for SwiftOCR
 
 Version 6.0.22
 Date 2024-09-24

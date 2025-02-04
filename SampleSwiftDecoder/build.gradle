@@ -6,7 +6,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.6.4'
+        classpath 'com.android.tools.build:gradle:7.4.2'
     }
 }
 
@@ -43,7 +43,7 @@ repositories {
 
 dependencies {
     //Replace x.x.x with the required version
-    implementation 'com.honeywell:swiftdecoder:6.0.22'
-    implementation 'androidx.annotation:annotation:1.0.0'
-    implementation 'androidx.core:core:1.0.0'
+    implementation 'com.honeywell:swiftdecoder:6.2.6'
+    implementation 'androidx.annotation:annotation:1.5.0'
+    implementation 'androidx.core:core:1.5.0'
 }
