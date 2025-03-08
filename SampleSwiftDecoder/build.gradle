@@ -32,7 +32,7 @@ repositories {
     maven {
 
         // Replace <TOKEN> with the token generated for your account
-        url = uri("https://maven.pkg.github.com/HON-IA-SD/swiftdecoder-android")
+        url = uri("https://maven.pkg.github.com/Honeywell-IA/swiftdecoder-android")
 
         credentials {
             username = '<GITHUB-USERNAME>'
