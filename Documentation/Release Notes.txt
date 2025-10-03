@@ -1,6 +1,48 @@
+Version 6.4.0
+Date 2025-09-30
+Added support for 16KB page size for all libs
+
+Version 6.3.7
+Date 2025-06-04
+Issue Fix for Sound and Vibration enable/disbale not working on OCR features.
+Update License Manager to  version 2025.06.382
+
+Version 6.3.6
+Date 2025-05-29
+Issue Fixes for Barcode Filtering feature to detect Serial number using decoded barcode and OCR values
+Issue fixes for template OCR feature, crash on reading template after update to min version as 30
+
+Version 6.3.5
+Date 2025-05-25
+Added Barcode Filtering feature to detect Serial number using decoded barcode and OCR values
+
+Version 6.3.4
+Date 2025-05-22
+Update Decoder version to 2025.03.11057 and Update License Manager to  version 2025.05.381
+NDK version update to r27c
+Updated Trial License Key for DL
+PreviewCount feature Issue fixes
+
+Version 6.3.3
+Date 2025-04-08
+Added new Plugin Master List Scan to scan against the master list
+
+Version 6.3.2
+Date 2025-04-04
+Batch Scan Enhancements to support ResetScan, PauseScan and ResumeScan functionalities on existing scan.
+New Plugin PreviewCount Plugin added to support the grouping of results for similar barcodes and enable cycle counting of multiple frames
+
+Version 6.3.1
+Date 2025-04-04
+Added Support for USB Camera C2105 enabling Barcode,OCR & DL functionalities for image frames on C2105 Camera
+The support for USB Camera is enabled through a separate maven package com.honeywell.swiftusbcamera
+
+Version 6.2.7
+Date 2025-2-25
+- DL Library update
+
 Version 6.2.6
 Date 2024-12-24
--Added SwiftScan Feature which allows to integrate the scanning widget on existng application
 - Issue fixes for Undecoded Barcodes ROI detection
 
 Version 6.2.5
